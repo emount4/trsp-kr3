@@ -1,0 +1,3 @@
+fastapi
+hypercorn
+psycopg2-binary

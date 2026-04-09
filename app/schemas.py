@@ -8,7 +8,9 @@ class UserBase(BaseModel):
 
 class User(UserBase):
     password: str
+    role: str = "guest"
 
 
 class UserInDB(UserBase):
     hashed_password: str
+    role: str
